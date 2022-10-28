@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+:root {
+    --dark: #000000;
+    --light: #EEE0B1;
+  }
+
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 800;
+    font-size: 1.4rem;
+}
+
+body{
+    
+    background-color: var(--light);
+    color: var(--dark);
+    font-size: 1.5rem;
+}
+h1{
+    font-size: 10vmax;
+    margin-left: 1rem;
+}
+.grid-6{
+    
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(21rem, 1fr)) ;
+    padding: 5%;
+    gap: 3rem;
+}
+
+.artist__img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
